@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Joppe Koops
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  rood
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  surface plane
  
 </details>
 
@@ -36,15 +36,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  [Decoratie Ikea](https://www.ikea.com/nl/nl/cat/decoratie-de001/)
+  [Bloemen en planten Ikea](https://www.ikea.com/nl/nl/cat/bloemen-planten-pp003/)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Decoratie 
+  <img src="readme-images/ikea_pagina1.png" width="375px" alt="Screenshot van de decoratie pagina van de Ikea website">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Bloemen en Planten  
+  <img src="readme-images/ikea_pagina2.png" width="375px" alt="Screenshot van de bloemen en planten pagina van de Ikea website">
  
 </details>
 
