@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   [Decoratie Ikea](https://www.ikea.com/nl/nl/cat/decoratie-de001/)  
   [Bloemen en planten Ikea](https://www.ikea.com/nl/nl/cat/bloemen-planten-pp003/)  
 
-  #### Screenshot(s) van de eerste pagina (small screen):  
+  #### Screenshot(s) van de eerste pagina (small screen): 
   Decoratie  
   <img src="readme-images/ikea_pagina1.png" width="375px" alt="Screenshot van de decoratie pagina van de Ikea website">  
 
-  #### Screenshot(s) van de tweede pagina (small screen):  
+  #### Screenshot(s) van de tweede pagina (small screen):
   Bloemen en Planten  
   <img src="readme-images/ikea_pagina2.png" width="375px" alt="Screenshot van de bloemen en planten pagina van de Ikea website">  
  
@@ -60,15 +60,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met screen reader is de Ikea website redelijk goed te gebruiken. Alle elementen zitten worden voorgelezen en het is daarbij duidelijk waar je bent. Wel hebben veel element een kryptische omschrijving, die de developer waarschijnlijk wel begrijpt, maar de gebruiker niet. Bijvoorbeeld "search combobox". Bovendien is dit niet de enige beschrijving die dat element heeft, het hele element wordt voorgelezen als "search combox zoek product waar ben je naar opzoek?" Terwijl de ui automatisch een popup opent met onnodig veel opties.  
+  <img src="readme-images/searchbox.png" width="375px" alt="Screenshot van de searchbox popup van Ikea">  
+  Verder zijn er lange lijsten met productcategorieën en specifieke producten, waarvan sommige kunnen worden overgeslagen en anderen niet. Ook hebben de lijsten geen omschrijving van wat voor lijst het is.
+  Dan zijn er nog gallerijen met productlinkjes in de afbeeldingen. Omdat elk onderdeel eigenlijk uit drie element bestaat (de afbeelding, de popup van het product, de link naar het product), wordt er drie keer hetzelfde voorgelezen.
+  <img src="readme-images/gallerij_met_linkjes.png" width="375px" alt="Sreenshot van de product gallery van Ikea met drie elementen">  
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+  Alle elementen moeten een duidelijk omschrijving hebben die de gebruiker kan begrijpen. Van een lijst moet duidelijk zijn wat voor lijst het is en die moet kunnen worden overgeslagen. Maar er zijn ook elementen die voor een blinde gebruiker niet nuttig zijn, die kunnen uit de screen reader flow gehaald.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met gebruik van de tab-toets kom je eigenlijk dezelfde problemen tegen als met een screenreader. Er zijn lange lijsten die je niet kan overslaan, de search popup die vanzelf in beeld komt en de drie dubbele elementen in de gallery.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ook hier is het handig om een aantal skip linkje toe te voegen en wat elementen uit de tab-index te halen.
 
 
   #### Motoriek (shocks, elastiekjes)
@@ -78,9 +83,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Voor kleurenblinden is er eigenlijk niet een groot probleem. Alleen is het op de plaatjes lastig te zien wat de kleur van het product is, maar dit wordt al opgelost door in de product omschrijving te zetten welke kleur het product heeft.  
+    
+  Wel zijn er problemen met contrast. De zoekbalk is te licht om van de achtergrond te onderschijden als je zicht niet scherp is. Ook de button voor de popup in de gallery is afhangelijk van het plaatje niet goed te onderscheiden.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ook is veel tekst te klein om te lezen als je niet goed kan zien, met een grootte van 14px.
+
+  Om dit op te lossen moet op sommige plekken het contrast verbeterd. De buttons in de gallery kunnen bijvoorbeeld een box-shadow krijgen.
+  De tekst grootte kan iets groter. Natuurlijk kunnen gebruikers ook de tesktgrootte van hun browser aanpassen als ze het niet kunnen lezen.
 
 </details>
 
@@ -92,7 +102,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/ikea_1_breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -112,17 +122,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Er is voor mij tot nu toe wel een goede voortgang geweest. Ik loop niet helemaal op schema, maar het is niet iets wat ik onmogelijk kan inhalen. Ik heb tot nu toe bijna één pagina van de site volledig af. Meestal kom ik er zelf wel uit en anders wel samen met een klasgenoot. Wel zit ik soms nog te twijfelen over welk html element ik waar moet gebruiken. Google komt daarbij meestal met meer onduidelijkheid, omdat niet iedereen het daar blijkbaar over eens is. Dit is iets waar ik misschien meer naar kan vragen.
+
+  <img src="readme-images/site_voortgang_1.png" width="375px" alt="Screenshot nagemaakte Ikea website">
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1: Enis| student 2: Joppe          | student 3: Leon     | student 4: Raúl     |
+  | ---            | ---                       | ---                 | ---                 |
+  | dit bespreken  | voortgang bespreken       | voortgang bespreken | voortgang bespreken |
+  |                | navigatie als er tijd is  |                     |                     |
+  | ...            | ...                       | ...                 | ...                 |
 
 
   ### Verslag van meeting
