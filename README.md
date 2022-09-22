@@ -32,7 +32,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 
-<details>
+<details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:  
@@ -118,7 +118,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 1 (week 2)
 
-<details open>
+<details>
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
@@ -157,17 +157,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het gaat eigenlijk best wel goed. Het is vaak wel even zoeken naar hoe iets werkt, maar ik kom er altijd zelf we uit. Ik doe de volgorde wel wat anders; ik ben namelijk al begonnen met de tweede pagina, in plaats van de eerste pagina helemaal compleet te maken. Hierdoor heb ik nog niet echt gekeken naar welke keuzes voor surface plane ik wil gaan doen.
+  Soms vraag ik me nog een beetje af waarom iets nu werkt zoals het werkt, ook zit ik nog altijd met de vraag welk html element ik nu precies moet gebruiken, vooral article begrijp ik helemaal niets van.
+
+
+  <img src="readme-images/site_voortgang_2.png" width="375px" alt="Screenshot nagemaakte Ikea website">
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1: Enis| student 2: Joppe          | student 3: Leon     | student 4: Raúl     |
+  | ---            | ---                       | ---                 | ---                 |
+  | dit bespreken  | voortgang bespreken       | voortgang bespreken | voortgang bespreken |
+  |                | surface plane keuzes      |                     |                     |
+  | ...            | html als er tijd is       | ...                 | ...                 |
 
 
   ### Verslag van meeting
