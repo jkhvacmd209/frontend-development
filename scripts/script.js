@@ -41,6 +41,12 @@ function addToShoppingCart() {
 
 function addToFavorites() {
 	var clickedHeart = event.target;
+
+	if (clickedHeart.tagName == 'IMG') {
+		clickedHeart = clickedHeart.parentElement;
+	}
+
+	console.log(clickedHeart);
 	
 	currentWishlistAmount = parseInt(wishlistAmount.innerHTML);
  

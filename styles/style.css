@@ -597,7 +597,7 @@ section:first-of-type ul:first-of-type li:nth-of-type(5) {
 	line-height: 1.4rem;
 }
 
-.liked {
+li.liked > button {
 	background-color: var(--color-brand-secondary);
 }
 
