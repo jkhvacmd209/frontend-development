@@ -333,6 +333,15 @@ main > ul:first-of-type img {
 	hyphens: none;
 }
 
+.decoratie section:first-of-type ul:nth-of-type(2) li:first-of-type a {
+	position: static;
+}
+
+.decoratie section:first-of-type ul:nth-of-type(2) li:first-of-type img {
+	width: 8rem;
+	margin: 0;
+}
+
 
 /* Filters Slider */
 
