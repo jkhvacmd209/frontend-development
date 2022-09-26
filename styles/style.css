@@ -91,6 +91,11 @@ li button {
 	outline: none;
 }
 
+button {
+	border: none;
+	background: none;
+}
+
 
 
 /* HEADER */
@@ -104,24 +109,40 @@ header {
 	border-bottom: 1px solid var(--color-grey);
 }
 
-header nav ul {
+header nav:first-of-type ul {
 	display: flex;
 	list-style: none;
 	gap: .25em;
 	margin-right: -.5em;
 }
 
-header nav li{
+header nav:first-of-type li{
 	height: 2.75em;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 0 .5em;
+	position: relative;
 }
 
-header nav button {
+header nav:first-of-type button {
 	border: none;
 	background-color: transparent;
+}
+
+header nav:first-of-type a span{
+	border-radius: 1.2rem;
+	font-size: .8rem;
+	height: 1.2rem;
+	background-color: var(--color-brand);
+	color: var(--color-background);
+	aspect-ratio: 1/1;
+	position: absolute;
+	top: -.1rem;
+	right: -.1rem;
+	justify-content: center;
+	align-items: center;
+	display: none;
 }
 
 header form {
@@ -157,6 +178,79 @@ header form input[type='submit'] {
 	height: 2em;
 }
 
+
+/* Hamburger Menu */
+
+header nav:nth-of-type(2) {
+	background: var(--color-background);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100vh;
+	z-index: 5;
+	overflow-y: auto;
+	padding: 0 var(--margin-main);
+	transform: translateX(-100vw);
+	transition: .2s;
+}
+
+header nav:nth-of-type(2) a {
+	color: var(--color-text);
+}
+
+header nav:nth-of-type(2) > a:first-of-type {
+	width: 100%;
+	background-color: var(--color-background);
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+header nav:nth-of-type(2) > a:nth-of-type(2) {
+	width: 100%;
+	border-bottom: 1px solid var(--color-grey);
+	margin-top: 5em;
+	display: block;
+	padding-bottom: 1em;
+	display: flex;
+	gap: .5em;
+}
+
+header nav:nth-of-type(2) > a:nth-of-type(2) img{
+	width: 1.4em;
+	height: 1.4em;
+	margin: 0;
+}
+
+header nav:nth-of-type(2) > a img {
+	margin: 1em var(--margin-main);
+}
+
+header nav:nth-of-type(2) > button:first-of-type {
+	position: fixed;
+	top: 1em;
+	right: 1em;
+}
+
+header nav:nth-of-type(2) ul {
+	list-style: none;
+	margin-bottom: 3rem;
+}
+
+header nav:nth-of-type(2) li {
+	margin: 2rem 0;
+}
+
+header nav:nth-of-type(2) ul:first-of-type {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+nav:nth-of-type(2).open {
+	transform: translateX(0);
+}
 
 
 
@@ -262,6 +356,7 @@ main > ul:first-of-type img {
 	border: none;
 	border-radius: 1em;
 	font-size: 1em;
+	background-color: var(--color-light-grey);
 }
 
 
@@ -464,6 +559,7 @@ section:first-of-type ul:first-of-type li:nth-of-type(5) {
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 1em;
+	transition: .2s;
 }
 
 .planten section ul:nth-of-type(2) li > button:focus {
@@ -485,6 +581,10 @@ section:first-of-type ul:first-of-type li:nth-of-type(5) {
 	font-size: 1.2rem;
 	margin: 0 .1rem;
 	line-height: 1.4rem;
+}
+
+.liked {
+	background-color: var(--color-brand-secondary);
 }
 
 
