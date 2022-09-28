@@ -9,7 +9,8 @@ openButton.addEventListener('click', toggleMenu);
 closeButton.addEventListener('click', toggleMenu);
 
 function toggleMenu() {
-	navigation.classList.toggle('open');
+	navigation.classList.toggle('show');
+	setTimeout(function() {navigation.classList.toggle('open')}, 1);
 }
 
 //buy en like buttons
@@ -42,8 +43,11 @@ function addToShoppingCart() {
 function addToFavorites() {
 	var clickedHeart = event.target;
 
-	if (clickedHeart.tagName == 'IMG') {
+	if (clickedHeart.tagName == 'SVG') {
 		clickedHeart = clickedHeart.parentElement;
+		if (clickedHeart.tagName == 'SVG') {
+			clickedHeart = clickedHeart.parentElement;
+		}
 	}
 
 	console.log(clickedHeart);
