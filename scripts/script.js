@@ -43,14 +43,12 @@ function addToShoppingCart() {
 function addToFavorites() {
 	var clickedHeart = event.target;
 
-	if (clickedHeart.tagName == 'SVG') {
+	if (clickedHeart.tagName == 'svg') {
 		clickedHeart = clickedHeart.parentElement;
-		if (clickedHeart.tagName == 'SVG') {
+		if (clickedHeart.tagName == 'svg') {
 			clickedHeart = clickedHeart.parentElement;
 		}
 	}
-
-	console.log(clickedHeart);
 	
 	currentWishlistAmount = parseInt(wishlistAmount.innerHTML);
  

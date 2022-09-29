@@ -39,6 +39,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   [Decoratie Ikea](https://www.ikea.com/nl/nl/cat/decoratie-de001/)  
   [Bloemen en planten Ikea](https://www.ikea.com/nl/nl/cat/bloemen-planten-pp003/)  
 
+  <section style="display:flex">
   #### Screenshot(s) van de eerste pagina (small screen): 
   Decoratie  
   <img src="readme-images/ikea_pagina1.png" width="375px" alt="Screenshot van de decoratie pagina van de Ikea website">  
@@ -46,7 +47,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de tweede pagina (small screen):
   Bloemen en Planten  
   <img src="readme-images/ikea_pagina2.png" width="375px" alt="Screenshot van de bloemen en planten pagina van de Ikea website">  
- 
+  </section>
 </details>
 
 
@@ -153,7 +154,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details open>
+<details>
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
@@ -227,21 +228,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 3 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Mijn website is bijna af, dus het gaat heel goed. Ik moet nog een paar dingetjes voor surface plane afmaken en er zijn wat kleine toegankelijkheids dingen die nog verbeterd kunnen worden.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1: Enis      | student 2: Joppe          | student 3: Leon     | student 4: Raúl     |
+  | ---                  | ---                       | ---                 | ---                 |
+  | voortgang bespreken  | voortgang bespreken       | voortgang bespreken | voortgang bespreken |
+  |                      | toegankelijkheid          |                     |                     |
+  | ...                  |                           | ...                 | ...                 |
 
 
   ### Verslag van meeting
