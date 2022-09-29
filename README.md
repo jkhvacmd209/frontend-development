@@ -36,24 +36,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:  
-  [Decoratie Ikea](https://www.ikea.com/nl/nl/cat/decoratie-de001/)  
-  [Bloemen en planten Ikea](https://www.ikea.com/nl/nl/cat/bloemen-planten-pp003/)  
 
   | Screenshot(s) van de eerste pagina (small screen)                                         | Screenshot(s) van de eerste pagina (small screen)                                                  |
   | ---                                                                                       | ---                                                                                                |
   | [Decoratie Ikea](https://www.ikea.com/nl/nl/cat/decoratie-de001/)                         | [Bloemen en planten Ikea](https://www.ikea.com/nl/nl/cat/bloemen-planten-pp003/)                   |
   | ![Screenshot van de decoratie pagina van de Ikea website](readme-images/ikea_pagina1.png) | ![Screenshot van de bloemen en planten pagina van de Ikea website](readme-images/ikea_pagina2.png) |
 
-
-
-
-
-  <img src="readme-images/ikea_pagina1.png" width="375px" alt="Screenshot van de decoratie pagina van de Ikea website">  
-
-  #### Screenshot(s) van de tweede pagina (small screen):
-  Bloemen en Planten  
-  <img src="readme-images/ikea_pagina2.png" width="375px" alt="Screenshot van de bloemen en planten pagina van de Ikea website">  
-  </section>
 </details>
 
 
