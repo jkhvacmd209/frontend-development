@@ -185,9 +185,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenreader
   Veel omschrijvingen van elementen zijn een stuk beter dan die op de Ikea website. Alleen form inputs, zoals de zoekbalk blijven lastig. De screenreader ratelt hier nog steeds een hele lijst op, al is die wel iets korter en duidelijker.  
 
-  | ![Joppe die screenreader gebruikt](readme-images/screenreader_1.jpg) | ![Screenreader tekst bij zoekbalk](readme-images/screenreader_2.jpg) |  
+  | ![Joppe die screenreader gebruikt](readme-images/screenreader_1.jpg) | ![Screenreader tekst bij zoekbalk](readme-images/screenreader_2.jpg) |
+  | ---                                                                  | ---                                                                  |
 
-  Lijsten kunnen nu worden overgelagen en hebben een omschrijven, waardoor de gebruiker weet wat hij overslaat.
+  Lijsten kunnen nu worden overgeslagen en hebben een omschrijven, waardoor de gebruiker weet wat hij overslaat.
 
 
   #### Muis en Toetsenbord 
