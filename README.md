@@ -303,5 +303,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   7. Position sticky: https://michaelmovsesov.com/articles/fix-css-position-sticky-not-working
   8. Javascript audio: https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement/Audio
   9. Javascript element coördinaten: https://stackoverflow.com/questions/442404/retrieve-the-position-x-y-of-an-html-element
+  10. Laser geluidje: https://freesound.org/people/jobro/sounds/35681/
 
 </details>

@@ -46,7 +46,9 @@ function addToShoppingCart() {
 
 	// Bron voor audio: https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement/Audio
 
-	var laserSound = new Audio('../sounds/laser.wav');
+	// Bron laser geluidje: https://freesound.org/people/jobro/sounds/35681/
+
+	var laserSound = new Audio('/frontend-development/sounds/laser.wav');
 
 	// Bron voor coördinaten: https://stackoverflow.com/questions/442404/retrieve-the-position-x-y-of-an-html-element
 
@@ -68,7 +70,7 @@ function addToShoppingCart() {
 	var laserbeam = document.querySelector('.laser');
 
 	laserbeam.classList.add('on');
-	
+
 
 	laserSound.play();
 
