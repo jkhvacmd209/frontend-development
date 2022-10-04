@@ -186,7 +186,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Veel omschrijvingen van elementen zijn een stuk beter dan die op de Ikea website. Alleen form inputs, zoals de zoekbalk blijven lastig. De screenreader ratelt hier nog steeds een hele lijst op, al is die wel iets korter en duidelijker.  
 
   ![Joppe die screenreader gebruikt](readme-images/screenreader_1.jpg)  
-  ![Screenreader tekst bij zoekbalk](readme-images/screenreader_2.jpg)                                                                  |
+  ![Screenreader tekst bij zoekbalk](readme-images/screenreader_2.jpg)  
 
   Lijsten kunnen nu worden overgeslagen en hebben een omschrijven, waardoor de gebruiker weet wat hij overslaat.
 
@@ -257,8 +257,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je uitkomst - karakteristiek screenshots:  
   
   <img src="readme-images/slider.png" width="375px" alt="slider">  
+
   <img src="readme-images/menu.png" width="375px" alt="menu">  
+
   <img src="readme-images/zoeken.png" width="375px" alt="zoekbalk">  
+
   <img src="readme-images/grid.png" width="375px" alt="producten grid">  
 
 
@@ -277,7 +280,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Iets wat niet gelukt is, is om de tekst en het icoon in de zoekbalk in dark-mode leesbaar te maken.
   Iets wat ik ook graag nog had willen maken, zijn de popup linkjes in de gallery. Ik weet niet precies hoe ze dit gedaan hebben of hoe ik dit zou kunnen doen. Het was ook niet genoeg tijd om hier nog aan te gaan zitten.
 
-  <img src="readme-images/gallerij_met_linkjes.jpg" width="375px" alt="gallerij met linkjes">
+  <img src="readme-images/gallerij_met_linkjes.png" width="375px" alt="gallerij met linkjes">
 </details>
 
 
