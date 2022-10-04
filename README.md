@@ -56,9 +56,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenreader
   Met screen reader is de Ikea website redelijk goed te gebruiken. Alle elementen zitten worden voorgelezen en het is daarbij duidelijk waar je bent. Wel hebben veel element een kryptische omschrijving, die de developer waarschijnlijk wel begrijpt, maar de gebruiker niet. Bijvoorbeeld "search combobox". Bovendien is dit niet de enige beschrijving die dat element heeft, het hele element wordt voorgelezen als "search combox zoek product waar ben je naar opzoek?" Terwijl de ui automatisch een popup opent met onnodig veel opties.  
+
   <img src="readme-images/searchbox.png" width="375px" alt="Screenshot van de searchbox popup van Ikea">  
+
   Verder zijn er lange lijsten met productcategorieën en specifieke producten, waarvan sommige kunnen worden overgeslagen en anderen niet. Ook hebben de lijsten geen omschrijving van wat voor lijst het is.
-  Dan zijn er nog gallerijen met productlinkjes in de afbeeldingen. Omdat elk onderdeel eigenlijk uit drie element bestaat (de afbeelding, de popup van het product, de link naar het product), wordt er drie keer hetzelfde voorgelezen.
+  Dan zijn er nog gallerijen met productlinkjes in de afbeeldingen. Omdat elk onderdeel eigenlijk uit drie element bestaat (de afbeelding, de popup van het product, de link naar het product), wordt er drie keer hetzelfde voorgelezen.  
+
   <img src="readme-images/gallerij_met_linkjes.png" width="375px" alt="Sreenshot van de product gallery van Ikea met drie elementen">  
 
 
@@ -72,15 +75,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Een motorieke stoornis maakt het moeilijk om de website te gebruiken, maar dit ligt niet zo zeer aan de website zelf. Dit komt meer door het device waarop je de website bekijkt.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Voor kleurenblinden is er eigenlijk niet een groot probleem. Alleen is het op de plaatjes lastig te zien wat de kleur van het product is, maar dit wordt al opgelost door in de product omschrijving te zetten welke kleur het product heeft.  
     
-  Wel zijn er problemen met contrast. De zoekbalk is te licht om van de achtergrond te onderschijden als je zicht niet scherp is. Ook de button voor de popup in de gallery is afhangelijk van het plaatje niet goed te onderscheiden.
+  Wel zijn er problemen met contrast. De zoekbalk is te licht om van de achtergrond te onderscheiden als je zicht niet scherp is. Ook de button voor de popup in de gallery is afhangelijk van het plaatje niet goed te onderscheiden.
 
   Ook is veel tekst te klein om te lezen als je niet goed kan zien, met een grootte van 14px.
 
@@ -98,12 +99,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### de hele pagina: 
   <img src="readme-images/ikea_1_breakdown.png" width="375px" alt="breakdown van de hele pagina">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -135,10 +130,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik ben eigenlijk best wel ver en gewoon bij. Ik kan het beste eerst wat ik heb helemaal goed maken, want ik hoef niet de hele pagina na te maken.
+  - De gallerij zijn niet articles, maar een unordered list met afbeeldingen.
 
 </details>
 
@@ -172,10 +165,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Ik ben goed op schema qua voortgang.
+  - Ik heb veel onderdelen van surface plane er eigenlijk al in zitten. Ik ga nu verder met: dark-mode, meer micro interacties, advanced positioning, animaties en DOM manipulatie.
 
 </details>
 
@@ -192,27 +183,33 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Veel omschrijvingen van elementen zijn een stuk beter dan die op de Ikea website. Alleen form inputs, zoals de zoekbalk blijven lastig. De screenreader ratelt hier nog steeds een hele lijst op, al is die wel iets korter en duidelijker.  
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  | ![Joppe die screenreader gebruikt](readme-images/screenreader_1.jpg) | ![Screenreader tekst bij zoekbalk](readme-images/screenreader_2.jpg) |  
+
+  Lijsten kunnen nu worden overgelagen en hebben een omschrijven, waardoor de gebruiker weet wat hij overslaat.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ook voor mensen die de tab-toets gebruiken is het goed dat lijsten overgeslagen kunnen worden. Ook is het erg handig dat je niet gelijk door hele menu heen hoeft.
+  Daarnaast heb ik de focus states verbeterd, waardoor het duidelijk te zien is wat gefocust is.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Voor iemand met een motorieke stoornis is alles eigenlijk een beetje hetzelfde gebleven. Ik denk dat de website hier niet veel voor verbeterd kan en dat het meer aan de device ligt.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De zoekbalk is nu een stuk beter te zien, ook door dark-mode is er op veel plekken meer contrast.
+  De tekstgroote lijkt een klein verschil, maar maakt de tekst toch leesbaarder voor mensen die wat slechter zien. (Nu 16px in plaats van 14px)  
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  <img src="readme-images/bril.jpg" alt="Joppe kijkt door een bril naar zijn scherm">
+
+  Bij de filters in dark-mode is het contrast nog niet goed.  
+
+  <img src="readme-images/filters.png" alt="Filters in dark-mode">
+
+  Als je heel wazig ziet, zoals bij de wazige bril, dan is de tekst nog steeds te klein. Dit kan je wel oplossen door in de browser settings de tekst groter te zetten, maar daardoor vallen sommige delen buiten beeld op de website.
 
 </details>
 
@@ -222,7 +219,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 3 (week 4)
 
-<details open>
+<details>
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
@@ -242,10 +239,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Blijf niet te veel hangen op die toegankelijkheid en de screenreader.
+  - Ga nog iets leuks maken om wat nieuws te leren.
 
 </details>
 
@@ -255,23 +250,33 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Eindgesprek (week 5)
 
-<details>
+<details open>
   <summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  ### Je uitkomst - karakteristiek screenshots:  
+  
+  <img src="readme-images/slider.png" width="375px" alt="slider">
+  <img src="readme-images/menu.png" width="375px" alt="menu">
+  <img src="readme-images/zoeken.png" width="375px" alt="zoekbalk">
+  <img src="readme-images/grid.png" width="375px" alt="producten grid">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb beter gebruik leren maken van flex-box en grid en goed leren begrijpen wat er allemaal mee mogelijk is. Zoals bijvoorbeeld de header die ik gemaakt heb:  
+  
+  <img src="readme-images/header.png" width="375px" alt="header">  
+  
+  Maar ook het producten grid en de sliders. Met voor de sliders ook overflow en hoe ik de scrollbar een beetje kan vormgeven.  
+    
+  <img src="readme-images/grid.png" width="375px" alt="producten grid">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  Daarnaast heb ik vooral heel veel geleerd over toegankelijkheid. Ik wist wel dat het iets was waar rekening mee gehoeden moest worden, maar niet hoe dat kon.
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Iets wat niet gelukt is, is om de tekst en het icoon in de zoekbalk in dark-mode leesbaar te maken.
+  Iets wat ik ook graag nog had willen maken, zijn de popup linkjes in de gallery. Ik weet niet precies hoe ze dit gedaan hebben of hoe ik dit zou kunnen doen. Het was ook niet genoeg tijd om hier nog aan te gaan zitten.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/gallerij_met_linkjes.jpg" width="375px" alt="gallerij met linkjes">
 </details>
 
 
@@ -285,8 +290,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Skip link: https://css-tricks.com/how-to-create-a-skip-to-content-link/
+  2. Scrollbar styling: https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+  3. `:has()` selector: https://www.youtube.com/watch?v=OGJvhpoE8b4
+  4. Niet regel afbreken: https://developer.mozilla.org/en-US/docs/Web/CSS/white-space
+  5. Word-break: https://css-tricks.com/almanac/properties/h/hyphenate/
+  6. Javascript tagname: https://stackoverflow.com/questions/6518802/check-if-element-is-a-div
+  7. Position sticky: https://michaelmovsesov.com/articles/fix-css-position-sticky-not-working
+  8. Javascript audio: https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement/Audio
+  9. Javascript element coördinaten: https://stackoverflow.com/questions/442404/retrieve-the-position-x-y-of-an-html-element
 
 </details>
