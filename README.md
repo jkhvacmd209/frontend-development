@@ -185,8 +185,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenreader
   Veel omschrijvingen van elementen zijn een stuk beter dan die op de Ikea website. Alleen form inputs, zoals de zoekbalk blijven lastig. De screenreader ratelt hier nog steeds een hele lijst op, al is die wel iets korter en duidelijker.  
 
-  | ![Joppe die screenreader gebruikt](readme-images/screenreader_1.jpg) | ![Screenreader tekst bij zoekbalk](readme-images/screenreader_2.jpg) |
-  | ---                                                                  | ---                                                                  |
+  ![Joppe die screenreader gebruikt](readme-images/screenreader_1.jpg)  
+  ![Screenreader tekst bij zoekbalk](readme-images/screenreader_2.jpg)                                                                  |
 
   Lijsten kunnen nu worden overgeslagen en hebben een omschrijven, waardoor de gebruiker weet wat hij overslaat.
 
@@ -204,11 +204,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   De zoekbalk is nu een stuk beter te zien, ook door dark-mode is er op veel plekken meer contrast.
   De tekstgroote lijkt een klein verschil, maar maakt de tekst toch leesbaarder voor mensen die wat slechter zien. (Nu 16px in plaats van 14px)  
 
-  <img src="readme-images/bril.jpg" alt="Joppe kijkt door een bril naar zijn scherm">
+  <img src="readme-images/bril.jpg" width="375px" alt="Joppe kijkt door een bril naar zijn scherm">
 
   Bij de filters in dark-mode is het contrast nog niet goed.  
 
-  <img src="readme-images/filters.png" alt="Filters in dark-mode">
+  <img src="readme-images/filters.png" width="375px" alt="Filters in dark-mode">
 
   Als je heel wazig ziet, zoals bij de wazige bril, dan is de tekst nog steeds te klein. Dit kan je wel oplossen door in de browser settings de tekst groter te zetten, maar daardoor vallen sommige delen buiten beeld op de website.
 
@@ -256,10 +256,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je uitkomst - karakteristiek screenshots:  
   
-  <img src="readme-images/slider.png" width="375px" alt="slider">
-  <img src="readme-images/menu.png" width="375px" alt="menu">
-  <img src="readme-images/zoeken.png" width="375px" alt="zoekbalk">
-  <img src="readme-images/grid.png" width="375px" alt="producten grid">
+  <img src="readme-images/slider.png" width="375px" alt="slider">  
+  <img src="readme-images/menu.png" width="375px" alt="menu">  
+  <img src="readme-images/zoeken.png" width="375px" alt="zoekbalk">  
+  <img src="readme-images/grid.png" width="375px" alt="producten grid">  
 
 
   ### Dit ging goed/Heb ik geleerd: 
